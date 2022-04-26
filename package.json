@@ -1,0 +1,33 @@
+{
+  "name": "math-vectors",
+  "version": "0.0.1",
+  "description": "Typescript npm package for dealing with math vectors. Including but not limited to 2D, 3D, ND, Complex.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"no test yet\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/safesintesi/math-vectors.git"
+  },
+  "keywords": [
+    "math",
+    "vectors",
+    "physics",
+    "complex"
+  ],
+  "author": "safesintesi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/safesintesi/math-vectors/issues"
+  },
+  "homepage": "https://github.com/safesintesi/math-vectors#readme",
+  "devDependencies": {
+    "typescript": "^4.6.3"
+  }
+}
