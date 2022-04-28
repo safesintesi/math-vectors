@@ -8,7 +8,7 @@
     "dist/"
   ],
   "scripts": {
-    "build": "tsc",
+    "build": "tsc && typedoc --tsconfig .",
     "test": "echo \"no test yet\""
   },
   "repository": {
@@ -21,13 +21,14 @@
     "physics",
     "complex"
   ],
-  "author": "safesintesi",
+  "author": "Edoardo Bortolozzo as safesintesi",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/safesintesi/math-vectors/issues"
   },
   "homepage": "https://github.com/safesintesi/math-vectors#readme",
   "devDependencies": {
+    "typedoc": "^0.22.15",
     "typescript": "^4.6.3"
   }
 }

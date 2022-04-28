@@ -1,6 +1,11 @@
 import { Vector } from "./Vector";
 
+/**
+ * Represtens a mathematical Vector on a Plane.
+ * The Vector must have only two components.
+ */
 export class Vector2D extends Vector {
+    /**Constructor. */
     constructor(...components: Array<number | Array<number> | ReadonlyArray<number>>) {
         super();
         let newcomps: number[] = new Array<number>(0);
@@ -27,6 +32,11 @@ export class Vector2D extends Vector {
         this.components[1] = value;
     }
     
+    /**
+     * Returns the cross products between two vectors.
+     * @param v A Vector2D
+     * @returns The scalar number result of the cross product.
+     */
     cross(v: Vector2D): number {
         return ((this.x * v.y) - (this.y * v.x));
     }

@@ -1,5 +1,9 @@
 import { Vector } from "./Vector";
 
+/**
+ * Represtens a mathematical Vector in a 3D space.
+ * The Vector must have only three components.
+ */
 export class Vector3D extends Vector {
     constructor(...components: Array<number | Array<number> | ReadonlyArray<number>>) {
         super();
@@ -35,6 +39,11 @@ export class Vector3D extends Vector {
         this.components[2] = value;
     }
 
+    /**
+     * Returns the cross products between two vectors.
+     * @param v A Vector3D
+     * @returns A Vector3D result of the cross product.
+     */
     cross(v: Vector3D): Vector3D {
         let a = new Array<number>(3);
         let b = this.components;
