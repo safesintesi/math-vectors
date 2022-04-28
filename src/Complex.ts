@@ -1,4 +1,4 @@
-import { Vector2D } from "./2D";
+import { Vector2D } from "./2D.js";
 
 /**
  * Represents a complex mnumber as a Vector on a plane.

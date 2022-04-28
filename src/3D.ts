@@ -1,4 +1,4 @@
-import { Vector } from "./Vector";
+import { Vector } from "./Vector.js";
 
 /**
  * Represtens a mathematical Vector in a 3D space.

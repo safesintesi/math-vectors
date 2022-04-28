@@ -1,4 +1,4 @@
-import { Vector } from "./Vector";
+import { Vector } from "./Vector.js";
 
 /**
  * Represtens a mathematical Vector on a Plane.

@@ -11,6 +11,17 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 - Complex algebric/exponential conversion.
 
+## [0.1.1] - 2022-04-28
+
+### Added
+
+- Example code in [README.md](./README.md)
+- Doc link in [README.md](./README.md) 
+
+### Fixed
+
+- Interal import error due to transision from CommonJs module to ES module.
+
 ## [0.1.0] - 2022-04-28
 
 ### Added
