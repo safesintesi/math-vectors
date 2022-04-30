@@ -26,3 +26,7 @@ console.log(a.add(c));
 ## Docs
 
 You can find all the docs [here](https://safesintesi.github.io/math-vectors/index.html)
+
+## Bugs🐛
+
+Report any bug, error or new feature you would like [here](https://github.com/safesintesi/math-vectors/issues)

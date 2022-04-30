@@ -10,6 +10,14 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### Planned
 
 - Complex algebric/exponential conversion.
+- Polar Vectors.
+
+## [0.1.2] - 2022-04-30
+
+### Added
+
+- Roots method for Complex roots.
+- Bug report link in Readme.
 
 ## [0.1.1] - 2022-04-28
 
