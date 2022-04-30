@@ -1,6 +1,6 @@
 {
   "name": "math-vectors",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Typescript npm package for dealing with math vectors. Including but not limited to 2D, 3D, ND, Complex.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
