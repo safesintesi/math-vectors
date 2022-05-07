@@ -10,7 +10,14 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### Planned
 
 - Complex algebric/exponential conversion.
-- Polar Vectors.
+
+## [0.2.0] - 2022-05-07
+
+### Added
+
+- GeneralVector interface.
+- toObject method to all classes.
+- Polar Vectors (as PolarVector2D class).
 
 ## [0.1.2] - 2022-04-30
 

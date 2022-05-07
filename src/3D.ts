@@ -55,4 +55,11 @@ export class Vector3D extends Vector {
         return new Vector3D(a);
     }
 
+    toObject(): object {
+        return {
+            x: this.x,
+            y: this.y,
+            z: this.z
+        }
+    }
 }

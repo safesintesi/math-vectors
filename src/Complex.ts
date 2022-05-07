@@ -87,4 +87,11 @@ export class Complex extends Vector2D {
         }
         return roots;
     }
+
+    toObject(): object {
+        return {
+            re: this.x,
+            im: this.y
+        }
+    }
 }

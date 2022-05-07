@@ -1,7 +1,9 @@
+import { GeneralVector } from "./General.js";
+
 /**
  * Represtens a mathematical Vector.
  */
-export class Vector {
+export class Vector implements GeneralVector {
     /** Contains all the components of the Vector.*/
     components: number[];
 
@@ -76,6 +78,10 @@ export class Vector {
         })
         s = s + "])"
         return s;
+    }
+
+    toObject(): object {
+        return {...this.components};
     }
 
     /**
